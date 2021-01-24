@@ -17,7 +17,7 @@ namespace testRepositorio.Controllers
         {
             _logger = logger;
         }
-
+        //Comentario agregado
         public IActionResult Index()
         {
             return View();
@@ -33,5 +33,6 @@ namespace testRepositorio.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+        //Comentario agregado
     }
 }
